@@ -76,7 +76,7 @@ export const More = () => {
   const bottomFeatures = features.slice(4);
 
   return (
-    <section className="py-20 bg-[#FAFAFA]">
+    <section className="py-10 sm:py-16 lg:py-20 bg-[#FAFAFA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -84,25 +84,25 @@ export const More = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-left mb-16"
+          className="text-left mb-8 sm:mb-12 lg:mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
             Minor Chores is a simple solution for busy households, enabling parents to quickly and{' '}
             <span className="text-[#2C9B47] font-serif italic">safely teach kids essential business skills while building community.</span>
           </h2>
         </motion.div>
 
         {/* Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Left side - Image Container */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="flex justify-center lg:justify-start sticky top-8"
+            className="flex justify-center lg:justify-start order-2 lg:order-1"
           >
-            <div className="w-full h-[600px] rounded-2xl overflow-hidden">
+            <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-xl sm:rounded-2xl overflow-hidden">
               <img
                 src={ASSETS.more}
                 alt="Minor Chores Features"
@@ -112,7 +112,7 @@ export const More = () => {
           </motion.div>
 
           {/* Right side - Features */}
-          <div className="grid grid-cols-1 gap-2">
+          <div className="grid grid-cols-1 gap-3 sm:gap-4 lg:gap-2 order-1 lg:order-2">
             {rightSideFeatures.map((feature, index) => (
               <FeatureCard
                 key={index}
@@ -126,14 +126,14 @@ export const More = () => {
         </div>
 
         {/* Bottom Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mt-8 sm:mt-12 lg:mt-16">
           {bottomFeatures.map((feature, index) => (
             <FeatureCard
               key={index}
               icon={feature.icon}
               title={feature.title}
               description={feature.description}
-              index={index}
+              index={index + 4}
             />
           ))}
         </div>

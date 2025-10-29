@@ -247,7 +247,7 @@ const Navigation = ()=>{
         },
         className: "bg-[#FAFAFA] sticky top-0 z-50",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+            className: "max-w-7xl mx-auto px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between items-center h-18",
                 children: [
@@ -469,12 +469,12 @@ const HeroSection = ()=>{
     _s();
     const [showVideo, setShowVideo] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "min-h-[90vh] bg-[#FAFAFA] flex items-center px-4 -mt-8",
+        className: "min-h-screen bg-[#FAFAFA] flex items-center px-4 sm:px-6 lg:px-8 -mt-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto w-full",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
+                    className: "grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
@@ -489,12 +489,13 @@ const HeroSection = ()=>{
                                 duration: 0.8,
                                 delay: 0.2
                             },
-                            className: "text-left",
+                            className: "text-left order-2 lg:order-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-none space-y-2",
+                                    className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "mb-1",
                                             children: [
                                                 "Kickstart a",
                                                 ' ',
@@ -549,7 +550,7 @@ const HeroSection = ()=>{
                                         duration: 0.8,
                                         delay: 0.4
                                     },
-                                    className: "text-xl md:text-xl text-gray-600 mb-12 leading-tight tracking-tight",
+                                    className: "text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-12 leading-relaxed",
                                     children: "Turn your skills into income. Connect with neighbors who need help with everyday tasks. Start earning today with our simple, secure platform."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -569,12 +570,12 @@ const HeroSection = ()=>{
                                         duration: 0.8,
                                         delay: 0.6
                                     },
-                                    className: "flex flex-col sm:flex-row gap-4",
+                                    className: "flex flex-col sm:flex-row gap-3 sm:gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "md",
                                             variant: "primary",
-                                            className: "w-full sm:w-auto",
+                                            className: "w-full sm:w-auto text-sm sm:text-base",
                                             children: "Get Started Now"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -584,7 +585,7 @@ const HeroSection = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "md",
                                             variant: "outline",
-                                            className: "w-full sm:w-auto",
+                                            className: "w-full sm:w-auto text-sm sm:text-base",
                                             onClick: ()=>setShowVideo(true),
                                             children: "Watch Video"
                                         }, void 0, false, {
@@ -617,24 +618,24 @@ const HeroSection = ()=>{
                                 duration: 0.8,
                                 delay: 0.4
                             },
-                            className: "flex justify-center lg:justify-end relative",
+                            className: "flex justify-center lg:justify-end relative order-1 lg:order-2 mb-8 lg:mb-0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-4 right-4 w-full max-w-lg h-[32rem] bg-gradient-to-br from-[#2C9B47]/5 to-[#2C9B47]/2 rounded-2xl border border-[#2C9B47]/10"
+                                    className: "absolute top-2 sm:top-4 right-2 sm:right-4 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[32rem] bg-gradient-to-br from-[#2C9B47]/5 to-[#2C9B47]/2 rounded-xl sm:rounded-2xl border border-[#2C9B47]/10"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
                                     lineNumber: 75,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-2 right-2 w-full max-w-lg h-[32rem] bg-gradient-to-br from-[#2C9B47]/8 to-[#2C9B47]/4 rounded-2xl border border-[#2C9B47]/15"
+                                    className: "absolute top-1 sm:top-2 right-1 sm:right-2 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[32rem] bg-gradient-to-br from-[#2C9B47]/8 to-[#2C9B47]/4 rounded-xl sm:rounded-2xl border border-[#2C9B47]/15"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
                                     lineNumber: 76,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-full max-w-lg h-[32rem] rounded-2xl overflow-hidden",
+                                    className: "relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[32rem] rounded-xl sm:rounded-2xl overflow-hidden",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$assets$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ASSETS"].hero,
                                         alt: "Minor Chores Hero",
@@ -669,13 +670,13 @@ const HeroSection = ()=>{
             showVideo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative bg-white rounded-lg w-full max-w-3xl aspect-square",
+                    className: "relative bg-white rounded-lg w-full max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl aspect-video",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setShowVideo(false),
-                            className: "absolute -top-10 right-0 text-white hover:text-gray-300",
+                            className: "absolute -top-8 sm:-top-10 right-0 text-white hover:text-gray-300 z-10",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                className: "w-8 h-8",
+                                className: "w-6 h-6 sm:w-8 sm:h-8",
                                 fill: "none",
                                 stroke: "currentColor",
                                 viewBox: "0 0 24 24",
@@ -701,7 +702,7 @@ const HeroSection = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                             src: "https://drive.google.com/file/d/1EPUb_wyO3JnkhyiqIYp2w-NJFe9h5mDc/preview",
-                            className: "w-full h-full",
+                            className: "w-full h-full rounded-lg",
                             allow: "autoplay"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -750,9 +751,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$assets$2e$ts__
 ;
 const Value = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-white",
+        className: "py-10 sm:py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8",
+            className: "max-w-[90rem] mx-auto px-2 sm:px-6 lg:px-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: {
@@ -769,12 +770,12 @@ const Value = ()=>{
                     viewport: {
                         once: true
                     },
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-12 mb-16",
+                    className: "grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12 mb-10 sm:mb-16",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-left",
+                            className: "text-left mb-4 sm:mb-0",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight",
+                                className: "text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight tracking-tight",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "Why Choose"
@@ -805,7 +806,7 @@ const Value = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl text-gray-600 leading-tight tracking-tight",
+                                className: "text-lg sm:text-xl text-gray-600 leading-tight tracking-tight",
                                 children: [
                                     "We're more than just a platform. ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -852,7 +853,7 @@ const Value = ()=>{
                     viewport: {
                         once: true
                     },
-                    className: "w-full h-[840px] rounded-2xl overflow-hidden",
+                    className: "w-full h-[180px] sm:h-[350px] md:h-[500px] lg:h-[700px] rounded-2xl overflow-hidden",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$assets$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ASSETS"].value,
                         alt: "Minor Chores Value",
@@ -980,6 +981,31 @@ var _s = __turbopack_context__.k.signature();
 const Tabs = ({ tabs, defaultTab, onTabChange })=>{
     _s();
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(defaultTab || tabs[0]?.id);
+    // Scroll into view when tab changes (mobile)
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const btnRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])([]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Tabs.useEffect": ()=>{
+            // Mobile only: scroll selected tab into view
+            const isMobile = ("TURBOPACK compile-time value", "object") !== 'undefined' && window.innerWidth < 640;
+            if (isMobile && containerRef.current && btnRefs.current && activeTab) {
+                const idx = tabs.findIndex({
+                    "Tabs.useEffect.idx": (tab)=>tab.id === activeTab
+                }["Tabs.useEffect.idx"]);
+                const btn = btnRefs.current[idx];
+                if (btn && btn.scrollIntoView) {
+                    btn.scrollIntoView({
+                        behavior: 'smooth',
+                        inline: 'center',
+                        block: 'nearest'
+                    });
+                }
+            }
+        }
+    }["Tabs.useEffect"], [
+        activeTab,
+        tabs
+    ]);
     const handleTabClick = (tabId)=>{
         setActiveTab(tabId);
         onTabChange?.(tabId);
@@ -990,24 +1016,43 @@ const Tabs = ({ tabs, defaultTab, onTabChange })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full mb-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex border-b-2 border-gray-200",
-                    children: tabs.map((tab)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: " flex border-b-2 border-gray-200 overflow-x-auto scrollbar-hide sm:overflow-x-visible sm:justify-start whitespace-nowrap ",
+                    ref: containerRef,
+                    children: tabs.map((tab, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            ref: (el)=>btnRefs.current[idx] = el,
                             onClick: ()=>handleTabClick(tab.id),
-                            className: `flex-1 px-6 py-3 font-medium transition-all duration-200 ${activeTab === tab.id ? 'text-[#2C9B47] border-b-2 border-[#2C9B47] -mb-0.5' : 'text-gray-600 hover:text-[#2C9B47]'}`,
-                            children: tab.label
+                            className: `
+                px-6 py-3 font-medium transition-all duration-200
+                whitespace-nowrap
+                sm:flex-1
+                flex-shrink-0
+                ${activeTab === tab.id ? 'text-[#2C9B47] border-b-2 border-[#2C9B47] -mb-0.5' : 'text-gray-600 hover:text-[#2C9B47]'}
+              `,
+                            style: {
+                                minWidth: "min(140px, 80vw)",
+                                flex: '0 0 auto'
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block truncate",
+                                children: tab.label
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/common/Tabs.tsx",
+                                lineNumber: 74,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0))
                         }, tab.id, false, {
                             fileName: "[project]/src/components/common/Tabs.tsx",
-                            lineNumber: 31,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/src/components/common/Tabs.tsx",
-                    lineNumber: 29,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/common/Tabs.tsx",
-                lineNumber: 28,
+                lineNumber: 44,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1025,17 +1070,17 @@ const Tabs = ({ tabs, defaultTab, onTabChange })=>{
                 className: "w-full"
             }, activeTab, false, {
                 fileName: "[project]/src/components/common/Tabs.tsx",
-                lineNumber: 47,
+                lineNumber: 81,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/common/Tabs.tsx",
-        lineNumber: 26,
+        lineNumber: 42,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(Tabs, "aMOBBUq2DI1bJ4Wz3pxNsMMw1o8=");
+_s(Tabs, "A6upoP2ozWYcYC3Ai/nPqQwmVbs=");
 _c = Tabs;
 var _c;
 __turbopack_context__.k.register(_c, "Tabs");
@@ -1370,14 +1415,14 @@ const TestimonialCard = ({ name, role, content, rating, index })=>{
         viewport: {
             once: true
         },
-        className: "bg-white p-8 rounded-xl border border-gray-100",
+        className: "bg-white p-5 sm:p-6 md:p-8 rounded-lg sm:rounded-xl border border-gray-100 h-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center mb-4",
+                className: "flex items-center mb-3 sm:mb-4",
                 children: [
                     ...Array(5)
                 ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                        className: `w-5 h-5 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`,
+                        className: `w-4 h-4 sm:w-5 sm:h-5 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`,
                         fill: "currentColor",
                         viewBox: "0 0 20 20",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1398,7 +1443,7 @@ const TestimonialCard = ({ name, role, content, rating, index })=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
-                className: "text-gray-600 leading-relaxed mb-6 italic",
+                className: "text-sm sm:text-base text-gray-600 leading-relaxed mb-4 sm:mb-6 italic",
                 children: [
                     '"',
                     content,
@@ -1413,9 +1458,9 @@ const TestimonialCard = ({ name, role, content, rating, index })=>{
                 className: "flex items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-12 h-12 bg-[#2C9B47] rounded-full flex items-center justify-center mr-4",
+                        className: "w-10 h-10 sm:w-12 sm:h-12 bg-[#2C9B47] rounded-full flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-white font-semibold text-lg",
+                            className: "text-white font-semibold text-base sm:text-lg",
                             children: name.split(' ').map((n)=>n[0]).join('')
                         }, void 0, false, {
                             fileName: "[project]/src/components/common/TestimonialCard.tsx",
@@ -1428,9 +1473,10 @@ const TestimonialCard = ({ name, role, content, rating, index })=>{
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "min-w-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                className: "font-semibold text-gray-900",
+                                className: "font-semibold text-sm sm:text-base text-gray-900 truncate",
                                 children: name
                             }, void 0, false, {
                                 fileName: "[project]/src/components/common/TestimonialCard.tsx",
@@ -1438,7 +1484,7 @@ const TestimonialCard = ({ name, role, content, rating, index })=>{
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-gray-500",
+                                className: "text-xs sm:text-sm text-gray-500",
                                 children: role
                             }, void 0, false, {
                                 fileName: "[project]/src/components/common/TestimonialCard.tsx",
@@ -1525,9 +1571,9 @@ const TestimonialSection = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-white",
+        className: "py-10 sm:py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+            className: "max-w-7xl mx-auto px-2 sm:px-6 lg:px-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: {
@@ -1544,10 +1590,10 @@ const TestimonialSection = ()=>{
                     viewport: {
                         once: true
                     },
-                    className: "text-center mb-16",
+                    className: "text-center mb-10 sm:mb-16",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight",
+                            className: "text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight tracking-tight",
                             children: [
                                 "What Our",
                                 ' ',
@@ -1568,7 +1614,7 @@ const TestimonialSection = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl text-gray-600 max-w-3xl mx-auto leading-tight tracking-tight",
+                            className: "text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-tight tracking-tight",
                             children: "Hear from parents, young entrepreneurs, and community members who are building stronger neighborhoods together."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/TestimonialSection.tsx",
@@ -1582,7 +1628,65 @@ const TestimonialSection = ()=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "space-y-8",
+                    className: "block sm:hidden",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative overflow-hidden -mx-4 px-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex animate-scroll-left gap-4",
+                                children: [
+                                    ...testimonials,
+                                    ...testimonials
+                                ].map((testimonial, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex-shrink-0 w-[calc(100vw-4rem)] max-w-sm",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$TestimonialCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TestimonialCard"], {
+                                            name: testimonial.name,
+                                            role: testimonial.role,
+                                            content: testimonial.content,
+                                            rating: testimonial.rating,
+                                            index: index
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                                            lineNumber: 73,
+                                            columnNumber: 19
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, `mobile-${index}`, false, {
+                                        fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                                        lineNumber: 72,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                                lineNumber: 70,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                                lineNumber: 84,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                                lineNumber: 86,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                        lineNumber: 69,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/sections/TestimonialSection.tsx",
+                    lineNumber: 68,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "hidden sm:block space-y-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "relative overflow-hidden",
@@ -1602,37 +1706,37 @@ const TestimonialSection = ()=>{
                                                 index: index
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 97,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, `top-${index}`, false, {
                                             fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10"
+                                    className: "absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10"
+                                    className: "absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                            lineNumber: 70,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1653,43 +1757,43 @@ const TestimonialSection = ()=>{
                                                 index: index
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                                lineNumber: 95,
+                                                lineNumber: 118,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, `bottom-${index}`, false, {
                                             fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 117,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 115,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10"
+                                    className: "absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 129,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10"
+                                    className: "absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 131,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                            lineNumber: 91,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/TestimonialSection.tsx",
-                    lineNumber: 68,
+                    lineNumber: 91,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -1741,30 +1845,37 @@ const FeatureCard = ({ icon, title, description, index })=>{
         viewport: {
             once: true
         },
-        className: "bg-white p-6 rounded-xl",
+        className: "bg-white p-4 sm:p-5 lg:p-6 rounded-lg sm:rounded-xl h-full flex flex-col",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-12 h-12 bg-[#2C9B47] rounded-lg flex items-center justify-center mb-4",
-                children: icon
+                className: "w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-[#2C9B47] rounded-lg flex items-center justify-center mb-3 sm:mb-4 flex-shrink-0",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6",
+                    children: icon
+                }, void 0, false, {
+                    fileName: "[project]/src/components/common/FeatureCard.tsx",
+                    lineNumber: 26,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/common/FeatureCard.tsx",
                 lineNumber: 25,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-xl font-semibold text-gray-900 mb-2",
+                className: "text-base sm:text-lg lg:text-xl font-semibold text-gray-900 mb-2 leading-tight",
                 children: title
             }, void 0, false, {
                 fileName: "[project]/src/components/common/FeatureCard.tsx",
-                lineNumber: 28,
+                lineNumber: 30,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-gray-600",
+                className: "text-sm sm:text-base text-gray-600 leading-relaxed flex-grow",
                 children: description
             }, void 0, false, {
                 fileName: "[project]/src/components/common/FeatureCard.tsx",
-                lineNumber: 31,
+                lineNumber: 33,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -1971,7 +2082,7 @@ const More = ()=>{
     const rightSideFeatures = features.slice(0, 4);
     const bottomFeatures = features.slice(4);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-[#FAFAFA]",
+        className: "py-10 sm:py-16 lg:py-20 bg-[#FAFAFA]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
@@ -1990,9 +2101,9 @@ const More = ()=>{
                     viewport: {
                         once: true
                     },
-                    className: "text-left mb-16",
+                    className: "text-left mb-8 sm:mb-12 lg:mb-16",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-4xl md:text-5xl font-bold text-gray-900 leading-tight tracking-tight",
+                        className: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight tracking-tight",
                         children: [
                             "Minor Chores is a simple solution for busy households, enabling parents to quickly and",
                             ' ',
@@ -2016,7 +2127,7 @@ const More = ()=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-start",
+                    className: "grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
@@ -2034,9 +2145,9 @@ const More = ()=>{
                             viewport: {
                                 once: true
                             },
-                            className: "flex justify-center lg:justify-start sticky top-8",
+                            className: "flex justify-center lg:justify-start order-2 lg:order-1",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-full h-[600px] rounded-2xl overflow-hidden",
+                                className: "w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-xl sm:rounded-2xl overflow-hidden",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$assets$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ASSETS"].more,
                                     alt: "Minor Chores Features",
@@ -2057,7 +2168,7 @@ const More = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 gap-2",
+                            className: "grid grid-cols-1 gap-3 sm:gap-4 lg:gap-2 order-1 lg:order-2",
                             children: rightSideFeatures.map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$FeatureCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FeatureCard"], {
                                     icon: feature.icon,
                                     title: feature.title,
@@ -2080,12 +2191,12 @@ const More = ()=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-3 gap-4 mt-16",
+                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mt-8 sm:mt-12 lg:mt-16",
                     children: bottomFeatures.map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$common$2f$FeatureCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FeatureCard"], {
                             icon: feature.icon,
                             title: feature.title,
                             description: feature.description,
-                            index: index
+                            index: index + 4
                         }, index, false, {
                             fileName: "[project]/src/components/sections/More.tsx",
                             lineNumber: 131,

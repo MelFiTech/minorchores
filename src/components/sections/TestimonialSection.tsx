@@ -44,28 +44,51 @@ export const TestimonialSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-10 sm:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight tracking-tight">
             What Our{' '}
             <span className="text-[#2C9B47] font-serif italic">Community</span>
             {' '}Says
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-tight tracking-tight">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-tight tracking-tight">
             Hear from parents, young entrepreneurs, and community members who are building stronger neighborhoods together.
           </p>
         </motion.div>
 
-        {/* Testimonials Grid */}
-        <div className="space-y-8">
+        {/* Testimonials - Mobile: Single row sliding left */}
+        <div className="block sm:hidden">
+          <div className="relative overflow-hidden -mx-4 px-4">
+            <div className="flex animate-scroll-left gap-4">
+              {[...testimonials, ...testimonials].map((testimonial, index) => (
+                <div key={`mobile-${index}`} className="flex-shrink-0 w-[calc(100vw-4rem)] max-w-sm">
+                  <TestimonialCard
+                    name={testimonial.name}
+                    role={testimonial.role}
+                    content={testimonial.content}
+                    rating={testimonial.rating}
+                    index={index}
+                  />
+                </div>
+              ))}
+            </div>
+            {/* Left fade */}
+            <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+            {/* Right fade */}
+            <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+          </div>
+        </div>
+
+        {/* Testimonials - Desktop: Two rows */}
+        <div className="hidden sm:block space-y-8">
           {/* Top row - moves left */}
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll-left">
@@ -82,9 +105,9 @@ export const TestimonialSection = () => {
               ))}
             </div>
             {/* Left fade */}
-            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10" />
+            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
             {/* Right fade */}
-            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
           </div>
 
           {/* Bottom row - moves right */}
@@ -103,9 +126,9 @@ export const TestimonialSection = () => {
               ))}
             </div>
             {/* Left fade */}
-            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10" />
+            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
             {/* Right fade */}
-            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
           </div>
         </div>
       </div>

@@ -17,14 +17,14 @@ export const TestimonialCard = ({ name, role, content, rating, index }: Testimon
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
       viewport={{ once: true }}
-      className="bg-white p-8 rounded-xl border border-gray-100"
+      className="bg-white p-5 sm:p-6 md:p-8 rounded-lg sm:rounded-xl border border-gray-100 h-full"
     >
       {/* Rating Stars */}
-      <div className="flex items-center mb-4">
+      <div className="flex items-center mb-3 sm:mb-4">
         {[...Array(5)].map((_, i) => (
           <svg
             key={i}
-            className={`w-5 h-5 ${
+            className={`w-4 h-4 sm:w-5 sm:h-5 ${
               i < rating ? 'text-yellow-400' : 'text-gray-300'
             }`}
             fill="currentColor"
@@ -36,20 +36,20 @@ export const TestimonialCard = ({ name, role, content, rating, index }: Testimon
       </div>
 
       {/* Testimonial Content */}
-      <blockquote className="text-gray-600 leading-relaxed mb-6 italic">
+      <blockquote className="text-sm sm:text-base text-gray-600 leading-relaxed mb-4 sm:mb-6 italic">
         "{content}"
       </blockquote>
 
       {/* Author Info */}
       <div className="flex items-center">
-        <div className="w-12 h-12 bg-[#2C9B47] rounded-full flex items-center justify-center mr-4">
-          <span className="text-white font-semibold text-lg">
+        <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#2C9B47] rounded-full flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
+          <span className="text-white font-semibold text-base sm:text-lg">
             {name.split(' ').map(n => n[0]).join('')}
           </span>
         </div>
-        <div>
-          <h4 className="font-semibold text-gray-900">{name}</h4>
-          <p className="text-sm text-gray-500">{role}</p>
+        <div className="min-w-0">
+          <h4 className="font-semibold text-sm sm:text-base text-gray-900 truncate">{name}</h4>
+          <p className="text-xs sm:text-sm text-gray-500">{role}</p>
         </div>
       </div>
     </motion.div>
